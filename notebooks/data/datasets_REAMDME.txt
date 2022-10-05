@@ -1,0 +1,4 @@
+DATA_URL 
+ 'https://sdv-datasets.s3.amazonaws.com/{}.zip'
+DATASETS_URL 
+'https://sdv-datasets.s3.amazonaws.com/datasets.csv'

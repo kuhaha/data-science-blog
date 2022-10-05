@@ -1,0 +1,28 @@
+{
+    "tables": {
+        "students": {
+            "fields": {
+                "sid": {
+                    "type": "numerical",
+                    "subtype": "integer"
+                },
+                "sname": {
+                    "type": "categorical"
+                },
+                "total_gpa": {
+                    "type": "numerical",
+                    "subtype": "float"
+                },
+                "total_credit": {
+                    "type": "numerical",
+                    "subtype": "integer"
+                },
+                "attendance_rate": {
+                    "type": "numerical",
+                    "subtype": "float"
+                },
+
+            }
+        }
+    }
+}

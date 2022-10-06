@@ -20,8 +20,7 @@
                 "attendance_rate": {
                     "type": "numerical",
                     "subtype": "float"
-                },
-
+                }
             }
         }
     }

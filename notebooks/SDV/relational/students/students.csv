@@ -1,4 +1,4 @@
-﻿学籍番号,氏名,累積GPA,修得単位,履修単位数,出席率
+﻿student_id,student_name,overall_gpa,obtained_credits,enrolled_credits,attendance_rate
 21GW001,奥村 里歩,0.410 ,3,22,68.6
 21GW002,酒井 璃玖,0.548 ,10,22,73.9
 21GW003,大橋 雄大,0.835 ,11,18,65.0

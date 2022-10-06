@@ -1,19 +1,28 @@
 {
     "tables": {
         "students": {
+            "primary_key": "student_id",
             "fields": {
-                "sid": {
-                    "type": "numerical",
-                    "subtype": "integer"
+                "student_id": {
+                    "type": "id",
+                    "subtype": "string",
+                    "regex": "21WT[0-9]{2}[1-9]"
                 },
-                "sname": {
-                    "type": "categorical"
+                "student_name": {
+                    "type": "categorical",
+                    "pii": true,
+                    "pii_locales": ["jp-JP"],
+                    "pii_category": "name"
                 },
-                "total_gpa": {
+                "overall_gpa": {
                     "type": "numerical",
                     "subtype": "float"
                 },
-                "total_credit": {
+                "obtained_credits": {
+                    "type": "numerical",
+                    "subtype": "integer"
+                },
+                "enrolled_credits": {
                     "type": "numerical",
                     "subtype": "integer"
                 },
